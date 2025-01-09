@@ -2,7 +2,7 @@
 
 group-tabs-layout is a state-driven UI library that integrates JSON data with Context API and dynamically renders MDX files using Next.js dynamic routing.
 
-![group_tabs_layout_demo](https://github.com/user-attachments/assets/b4ee2a94-4b12-499c-b0a9-f63a6e0431f3)
+![group_tabs_layout_demo](https://github.com/user-attachments/assets/9e188c72-676d-4189-a638-67dd64f6ad26)
 
 # Install
 
