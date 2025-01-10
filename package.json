@@ -1,6 +1,6 @@
 {
   "name": "group-tabs-layout",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "group tabs layout with Next.js dynamic routing",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

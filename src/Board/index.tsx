@@ -66,7 +66,7 @@ const NavList = React.forwardRef<React.ElementRef<"div">, INavListProps>(({ clas
     <div>
       {Object.keys(boradDataState.page).map((pageId) => (
         <div className={cn(className)} key={pageId} data-selected={pageId === currentPageId} onClick={() => handleClickNavItem(pageId)}>
-          {pageId}
+          {boradDataState.page[pageId].name}
         </div>
       ))}
     </div>
