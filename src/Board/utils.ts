@@ -18,9 +18,7 @@ const getTabMoveStatus = (currTabElement: HTMLElement) => {
 
   const dist = 0;
 
-  /**
-   * Default
-   */
+  // default
   if (
     ((currGroupHeaderLeft >= tabLeft && currGroupHeaderLeft - (tabLeft + tabWidth) <= dist) || (currGroupHeaderLeft <= tabLeft && tabLeft - (currGroupHeaderLeft + currGroupHeaderWidth) <= dist)) &&
     ((currGroupHeaderTop >= tabTop && currGroupHeaderTop - (tabTop + tabHeight) <= dist) || (currGroupHeaderTop <= tabTop && tabTop - (currGroupHeaderTop + currGroupHeaderHeight) <= dist))
@@ -28,9 +26,7 @@ const getTabMoveStatus = (currTabElement: HTMLElement) => {
     return TAB_MOVE_STATUS.DEFAULT;
   }
 
-  /**
-   * Combine
-   */
+  // combine
   let combineGroupId = "";
 
   const groupHeaderElements = document.querySelectorAll("[data-group-header]");
