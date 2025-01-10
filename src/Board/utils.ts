@@ -16,7 +16,7 @@ const getTabMoveStatus = (currTabElement: HTMLElement) => {
   const { top: tabTop, left: tabLeft, width: tabWidth, height: tabHeight } = currTabElement.getBoundingClientRect();
   const { top: currGroupHeaderTop, left: currGroupHeaderLeft, width: currGroupHeaderWidth, height: currGroupHeaderHeight } = groupHeaderElement.getBoundingClientRect();
 
-  const dist = 10;
+  const dist = 0;
 
   /**
    * Default
